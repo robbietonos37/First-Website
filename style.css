@@ -3,10 +3,16 @@ ul {
     flex-direction: row;
     gap: 22px;
     list-style: none;
+    background-color: darkorange;
 }
 
 .top-line a {
-    background-color: darkorange;
+    background-color: brown;
+}
+
+.top-line li {
+    padding: 12px;
+    background-color: brown;
 }
 
 * {
