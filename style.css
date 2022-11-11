@@ -1,0 +1,125 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    list-style: none;
+}
+
+.top-line a {
+    background-color: darkorange;
+}
+
+* {
+    background-color: grey;
+}
+
+.Header {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    font-family: monospace;
+}
+
+.MeMe {
+    display: flex;
+    flex-direction: horizontal;
+    gap: 12px;
+    background-color: green
+}
+
+.About-Me {
+    margin-left: 18px;
+    flex: 1 1 0;
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+
+.Refer-Below {
+    flex: 1 1 0;
+    margin-right: 24px;
+}
+
+.Linked {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.First {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.First div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 12px solid brown;
+    padding: 0;
+    height: 200px;
+    background-color: turquoise;
+}
+
+.About-Rock {
+    background-color: turquoise;
+}
+
+.Rock {
+    display: flex;
+    flex-direction: column;
+}
+
+.Second-Row {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.Second-Row div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 12px solid brown;
+    padding: 0;
+    height: 200px;
+    background-color: turquoise;
+}
+
+
+.ATM {
+    display: flex;
+    flex-direction: column;
+    background-color: turquoise;
+}
+
+.ATM-Description {
+    background-color: turquoise;
+}
+
+.Dealership {
+    display: flex;
+    flex-direction: column;
+}
+
+.Second-Row a {
+    text-decoration: none;
+    list-style: none;
+    background-color: turquoise;
+}
+
+.Rob {
+    border-radius: 50%;
+}
