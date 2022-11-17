@@ -1,4 +1,12 @@
+.body {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
+    flex: auto;
+    margin-top: 0;
     display: flex;
     flex-direction: row;
     gap: 22px;
@@ -6,8 +14,18 @@ ul {
     background-color: darkorange;
 }
 
+li {
+    border-radius: 50%;
+}
+
+.top-line {
+    flex: auto;
+    margin-top: 0;
+}
+
 .top-line a {
     background-color: brown;
+    margin-top: 0;
 }
 
 .top-line li {
@@ -51,6 +69,23 @@ ul {
     font-family: monospace;
     font-weight: bold;
     font-size: 22px;
+}
+
+.Middle {
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.Pictures {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 70%;
 }
 
 .First {
