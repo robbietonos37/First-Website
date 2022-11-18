@@ -42,22 +42,36 @@ li {
     color: white;
     font-size: 37px;
     font-family: monospace;
+    align-items: center;
 }
 
 .MeMe {
     display: flex;
     flex-direction: horizontal;
     gap: 12px;
-    background-color: green
+    background-color: gray;
 }
 
-.About-Me {
-    margin-left: 18px;
-    flex: 1 1 0;
-    background-color: orange;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
+.Skills {
+    flex: auto;
+    text-align: center;
+    width: 280px;
+    align-content: center;
 }
+
+.Skills h2 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.SkillSet {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: auto;
+}
+
 
 .Refer-Below {
     flex: 1 1 0;
@@ -82,10 +96,57 @@ li {
 .Pictures {
     display: flex;
     flex-direction: row;
+    gap: 250px;
+    border-color: orange;
+}
+
+.Pictures img {
+    height: 200px;
+}
+
+.Coldbrew {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.ColdCaption {
+    text-align: center;
+    font-size: 16px;
+}
+
+.Cold {
+    margin-left: 10px;
+}
+
+.Gym {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.South {
+    justify-content: center;
+}
+
+
+.Food {
+    font-size: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Taco {
+    justify-content: right;
 }
 
 img {
-    border-radius: 70%;
+    border-radius: 20%;
+    border-color: orange;
+    width: 300px;
 }
 
 .First {
