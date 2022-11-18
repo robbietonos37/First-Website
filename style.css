@@ -12,10 +12,13 @@ ul {
     gap: 22px;
     list-style: none;
     background-color: darkorange;
+    text-align: center;
 }
 
-li {
+.Skills li {
     border-radius: 50%;
+    width: 0;
+    text-align: center;
 }
 
 .top-line {
@@ -53,7 +56,6 @@ li {
 }
 
 .Skills {
-    flex: auto;
     text-align: center;
     width: 280px;
     align-content: center;
@@ -65,11 +67,8 @@ li {
 }
 
 .SkillSet {
-    background-color: brown;
-    display: flex;
     flex-direction: column;
     text-align: center;
-    flex: auto;
 }
 
 
@@ -161,23 +160,21 @@ img {
 .First div {
     display: flex;
     flex: 1;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
     border: 12px solid brown;
-    padding: 0;
-    height: 200px;
-    background-color: turquoise;
+    font-family: monospace;
+    background-color: violet;
+    font-size: 18px;
 }
 
 .About-Rock {
     background-color: turquoise;
 }
 
-.Rock {
-    display: flex;
-    flex-direction: column;
-}
+.Rock img {}
 
 .Second-Row {
     display: flex;
@@ -195,8 +192,6 @@ img {
     align-content: center;
     justify-content: center;
     border: 12px solid brown;
-    padding: 0;
-    height: 200px;
     background-color: turquoise;
 }
 
@@ -224,4 +219,14 @@ img {
 
 .Rob {
     border-radius: 50%;
+}
+
+.Third-Row {
+    display: flex;
+    flex-direction: column;
+}
+
+.Guessing-Game {
+    margin-top: 20px;
+    text-align: center;
 }
