@@ -33,13 +33,15 @@ ul {
 }
 
 .top-line a {
-    background-color: brown;
     margin-top: 0;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .top-line li {
+    font-family: monospace;
     padding: 12px;
-    background-color: brown;
+    font-size: 20px;
 }
 
 * {
@@ -58,16 +60,17 @@ ul {
     display: flex;
     flex-direction: horizontal;
     background-color: gray;
-    padding: 40px;
-    border: 30px;
-    flex: 1 1 0;
+    padding: 60px;
+    border: 100px;
     gap: 100px;
+
 }
 
 .Skills {
-    text-align: center;
-    width: 280px;
-    align-content: center;
+    flex: 1 1 auto;
+    text-align: left;
+    width: 200px;
+    gap: 00px;
 }
 
 .Skills h2 {
@@ -76,13 +79,18 @@ ul {
 }
 
 .SkillSet {
-    flex-direction: column;
-    text-align: center;
+    display: inline;
+    text-align: left;
+    justify-content: left;
+    padding: 0;
 }
 
+.Imgg {
+    flex: 1 1 auto;
+}
 
 .Refer-Below {
-    flex: 1 1 0;
+    flex: 1 1 auto;
     margin-right: 12px;
     font-size: 25px;
     font-family: monospace;
@@ -107,6 +115,7 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 250px;
+    margin-top: 25px;
 }
 
 .Pictures img {
