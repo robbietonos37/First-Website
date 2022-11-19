@@ -115,7 +115,7 @@ ul {
 .Pictures {
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 150px;
     margin-top: 25px;
 }
 
@@ -142,6 +142,10 @@ ul {
 
 .Gym {
     display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: center;
+    flex: 1 1 0px;
     flex-direction: column;
     font-size: 16px;
 }
