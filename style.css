@@ -11,14 +11,20 @@ ul {
     flex-direction: row;
     gap: 22px;
     list-style: none;
-    background-color: darkorange;
     text-align: center;
 }
 
 .Skills li {
+    font-family: monospace;
     border-radius: 50%;
     width: 0;
     text-align: center;
+    font-size: 34px;
+    color: silver;
+}
+
+.Skills h2 {
+    font-size: 48px;
 }
 
 .top-line {
@@ -51,8 +57,11 @@ ul {
 .MeMe {
     display: flex;
     flex-direction: horizontal;
-    gap: 12px;
     background-color: gray;
+    padding: 40px;
+    border: 30px;
+    flex: 1 1 0;
+    gap: 100px;
 }
 
 .Skills {
@@ -74,7 +83,9 @@ ul {
 
 .Refer-Below {
     flex: 1 1 0;
-    margin-right: 24px;
+    margin-right: 12px;
+    font-size: 25px;
+    font-family: monospace;
 }
 
 .Linked {
@@ -96,7 +107,6 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 250px;
-    border-color: orange;
 }
 
 .Pictures img {
@@ -155,11 +165,12 @@ img {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    flex: auto;
 }
 
-.First div {
+.Rock {
     display: flex;
-    flex: 1;
+    flex: 1 1 0;
     flex-direction: column;
     align-items: center;
     align-content: center;
@@ -175,6 +186,19 @@ img {
 }
 
 .Rock img {}
+
+.Dice {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 12px solid brown;
+    font-family: monospace;
+    background-color: violet;
+    font-size: 18px;
+}
 
 .Second-Row {
     display: flex;
