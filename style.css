@@ -186,14 +186,18 @@ img {
     width: 300px;
 }
 
-.First {
+.First-Row{
     display: flex;
+    flex-direction: row;
+}
+
+.First {
     align-items: center;
     list-style: none;
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    flex: auto;
+    flex: 1 1 0;
 }
 
 .Rock {
