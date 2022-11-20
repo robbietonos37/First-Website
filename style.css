@@ -30,6 +30,7 @@ ul {
 .top-line {
     flex: auto;
     margin-top: 0;
+    border: 40px red;
 }
 
 .top-line a {
@@ -55,43 +56,56 @@ ul {
     font-size: 37px;
     font-family: monospace;
     align-items: center;
+    border: 40px red;
 }
 
 .MeMe {
+    margin-top: 0px;
     display: flex;
     flex-direction: horizontal;
     background-color: gray;
-    padding: 60px;
-    border: 100px;
+    padding: 10px;
     gap: 100px;
-
+    border: 40px red;
+    justify-content: space-between
 }
 
 .Skills {
-    flex: 1 1 auto;
+    margin-top: 0px;
+    flex: 1 1 0;
+    flex-direction: column;
     text-align: left;
     width: 200px;
-    gap: 00px;
 }
 
+
 .Skills h2 {
+    margin-top: 0px;
     text-align: center;
     font-family: monospace;
 }
 
-.SkillSet {
+.Skills li {
+    height: 200px;
     display: inline;
-    text-align: left;
-    justify-content: left;
-    padding: 0;
+    margin-right: 60px;
+    color: white;
+}
+
+.SkillSet {
+    height: 200px;
+    text-align: center;
+    display: inline;
 }
 
 .Imgg {
-    flex: 1 1 auto;
+    flex 1 1 0;
+    border: 33px red;
 }
 
+
 .Refer-Below {
-    flex: 1 1 auto;
+    flex: 1 1 0;
     margin-right: 12px;
     font-size: 25px;
     font-family: monospace;
