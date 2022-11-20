@@ -186,38 +186,33 @@ img {
     width: 300px;
 }
 
-.First-Row{
+.Project-Grid {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.First {
-    align-items: center;
-    list-style: none;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+.First-Row {
     flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .Rock {
-    display: flex;
     flex: 1 1 0;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-content: center;
     border: 12px solid brown;
     font-family: monospace;
-    background-color: violet;
     font-size: 18px;
 }
 
 .About-Rock {
-    background-color: turquoise;
+    color: black;
 }
-
-.Rock img {}
 
 .Dice {
     display: flex;
@@ -228,34 +223,35 @@ img {
     justify-content: center;
     border: 12px solid brown;
     font-family: monospace;
-    background-color: violet;
     font-size: 18px;
 }
 
 .Second-Row {
+    flex: 1 1 0;
     display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .Second-Row div {
-    display: flex;
-    flex: 1;
     align-items: center;
-    align-content: center;
-    justify-content: center;
     border: 12px solid brown;
     background-color: turquoise;
 }
 
 
+.ATMPic {
+    border-radius: 50%;
+}
+
+
 .ATM {
+    flex: 1 1 0;
     display: flex;
     flex-direction: column;
     background-color: turquoise;
+    display: flex;
+    flex: 1 1 0;
 }
 
 .ATM-Description {
@@ -264,13 +260,13 @@ img {
 
 .Dealership {
     display: flex;
+    flex: 1 1 0;
     flex-direction: column;
 }
 
 .Second-Row a {
     text-decoration: none;
     list-style: none;
-    background-color: turquoise;
 }
 
 .Rob {
@@ -279,10 +275,20 @@ img {
 
 .Third-Row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .Guessing-Game {
+    flex: 1 1 0;
     margin-top: 20px;
+    border: 12px solid brown;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fun-Game {
+    flex: 1 1 0;
+    justify-items: center;
+    border: 12px solid brown;
 }
