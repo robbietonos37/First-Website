@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-ul {
+.top-line ul {
     flex: auto;
     margin-top: 0;
     display: flex;
@@ -12,6 +12,7 @@ ul {
     gap: 22px;
     list-style: none;
     text-align: center;
+    margin-top: 0px;
 }
 
 .Skills li {
@@ -20,7 +21,6 @@ ul {
     width: 0;
     text-align: center;
     font-size: 34px;
-    color: silver;
 }
 
 .Skills h2 {
@@ -31,6 +31,7 @@ ul {
     flex: auto;
     margin-top: 0;
     border: 40px red;
+    border: 12px black;
 }
 
 .top-line a {
@@ -38,12 +39,14 @@ ul {
     font-family: monospace;
     font-size: 20px;
     text-decoration: none;
+    border: 12px black;
 }
 
 .top-line li {
     font-family: monospace;
     padding: 12px;
     font-size: 20px;
+    border: 12px black;
 }
 
 * {
@@ -71,11 +74,13 @@ ul {
 }
 
 .Skills {
+    display: flex;
     margin-top: 0px;
     flex: 1 1 0;
     flex-direction: column;
     text-align: left;
     width: 200px;
+    height: 300px;
 }
 
 
@@ -250,7 +255,6 @@ img {
     display: flex;
     flex-direction: column;
     background-color: turquoise;
-    display: flex;
     flex: 1 1 0;
 }
 
@@ -274,21 +278,24 @@ img {
 }
 
 .Third-Row {
+    flex: 1 1 0;
     display: flex;
     flex-direction: row;
 }
 
 .Guessing-Game {
     flex: 1 1 0;
-    margin-top: 20px;
-    border: 12px solid brown;
-    text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    border: 12px solid brown;
 }
 
 .Fun-Game {
     flex: 1 1 0;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     border: 12px solid brown;
+    text-align: center;
+    align-items: center;
 }
