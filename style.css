@@ -8,23 +8,7 @@
     flex: auto;
     margin-top: 0;
     display: flex;
-    flex-direction: row;
-    gap: 22px;
     list-style: none;
-    text-align: center;
-    margin-top: 0px;
-}
-
-.Skills li {
-    font-family: monospace;
-    border-radius: 50%;
-    width: 0;
-    text-align: center;
-    font-size: 34px;
-}
-
-.Skills h2 {
-    font-size: 48px;
 }
 
 .top-line {
@@ -73,16 +57,27 @@
     justify-content: space-between
 }
 
-.Skills {
-    display: flex;
-    margin-top: 0px;
+.Skillset{
     flex: 1 1 0;
+    margin-top: 0;
+    display: flex;
+    list-style: none;
     flex-direction: column;
-    text-align: left;
-    width: 200px;
-    height: 300px;
 }
 
+.Skills li {
+    font-family: monospace;
+    font-size: 34px;
+}
+
+.Skills h2 {
+    font-size: 48px;
+}
+
+.Skills {
+    display: flex;
+    flex: 1 1 0;
+}
 
 .Skills h2 {
     margin-top: 0px;
@@ -91,16 +86,15 @@
 }
 
 .Skills li {
-    height: 200px;
     display: inline;
-    margin-right: 60px;
-    color: white;
+    color: gold;
 }
 
 .SkillSet {
-    height: 200px;
     text-align: center;
-    display: inline;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
 }
 
 .Imgg {
@@ -281,6 +275,7 @@ img {
     flex: 1 1 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .Guessing-Game {
@@ -288,7 +283,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 12px solid brown;
+    border: 12px solid gold;
 }
 
 .Fun-Game {
