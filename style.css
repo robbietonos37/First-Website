@@ -20,7 +20,6 @@
 
 .top-line a {
     margin-top: 0;
-    font-family: monospace;
     font-size: 20px;
     text-decoration: none;
     border: 12px black;
@@ -31,6 +30,10 @@
     padding: 12px;
     font-size: 20px;
     border: 12px black;
+}
+
+a:hover {
+    color: gold;
 }
 
 * {
@@ -77,6 +80,8 @@
 .Skills {
     display: flex;
     flex: 1 1 0;
+    align-items: center;
+    flex-direction: column;
 }
 
 .Skills h2 {
@@ -88,6 +93,7 @@
 .Skills li {
     display: inline;
     color: gold;
+    margin: 10px 0;
 }
 
 .SkillSet {
@@ -98,7 +104,6 @@
 }
 
 .Imgg {
-    flex 1 1 0;
     border: 33px red;
 }
 
@@ -130,7 +135,7 @@
     flex-direction: row;
     gap: 150px;
     margin-top: 25px;
-    
+    justify-content: center;
 }
 
 .Pictures img {
@@ -159,6 +164,7 @@
     flex-direction: column;
     font-size: 16px;
     align-items: center;
+    flex: 1 1 0;
 }
 
 .South {
@@ -167,10 +173,12 @@
 
 
 .Food {
+    align-items: center;
     font-size: 16px;
     margin-right: 16px;
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
 }
 
 .Taco {
@@ -233,7 +241,6 @@ img {
 .Second-Row div {
     align-items: center;
     border: 12px solid brown;
-    background-color: turquoise;
 }
 
 
@@ -246,13 +253,10 @@ img {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    background-color: turquoise;
     flex: 1 1 0;
 }
 
-.ATM-Description {
-    background-color: turquoise;
-}
+.ATM-Description {}
 
 .Dealership {
     display: flex;
@@ -281,7 +285,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 12px solid gold;
 }
 
 .Fun-Game {
