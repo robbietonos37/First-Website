@@ -14,22 +14,30 @@
 .top-line {
     flex: auto;
     margin-top: 0;
-    border: 40px red;
-    border: 12px black;
 }
 
 .top-line a {
     margin-top: 0;
     font-size: 20px;
     text-decoration: none;
-    border: 12px black;
 }
 
 .top-line li {
     font-family: monospace;
-    padding: 12px;
+    padding: 15px;
     font-size: 20px;
-    border: 12px black;
+}
+
+.Contact {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 14px;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 22px;
+    flex-direction: column;
 }
 
 a:hover {
@@ -46,7 +54,6 @@ a:hover {
     font-size: 37px;
     font-family: monospace;
     align-items: center;
-    border: 40px red;
 }
 
 .MeMe {
@@ -54,12 +61,10 @@ a:hover {
     display: flex;
     flex-direction: horizontal;
     background-color: gray;
-    border: 20px solid red;
 }
 
 .Skillset {
     flex: 1 1 0;
-    margin-top: 0;
     list-style: none;
     flex-direction: column;
     border: 20px solid red;
@@ -67,7 +72,7 @@ a:hover {
 
 .Skills li {
     font-family: monospace;
-    font-size: 34px;
+    font-size: 39px;
 }
 
 .Skills h2 {
@@ -78,11 +83,11 @@ a:hover {
     flex: 1 1 0;
     align-items: center;
     flex-direction: column;
-    border: 20px solid red;
+
 }
 
 .Skills h2 {
-    margin-top: 0px;
+    margin-top: 0;
     text-align: center;
     font-family: monospace;
 }
@@ -109,17 +114,17 @@ a:hover {
     flex: 1 1 0;
     font-size: 25px;
     font-family: monospace;
-    border: 20px solid red;
 }
 
 .Linked {
     text-align: center;
     font-family: monospace;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 37px;
 }
 
 .Middle {
+    margin-top: 20px;
     text-align: center;
     justify-content: center;
     font-family: monospace;
@@ -253,7 +258,9 @@ img {
     flex: 1 1 0;
 }
 
-.ATM-Description {}
+.ATM-Description {
+    font-family: monospace;
+}
 
 .Dealership {
     display: flex;
