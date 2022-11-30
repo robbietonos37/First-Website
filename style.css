@@ -189,7 +189,6 @@ a:hover {
 
 img {
     border-radius: 20%;
-    border-color: orange;
     width: 300px;
 }
 
@@ -207,6 +206,10 @@ img {
     justify-content: space-evenly;
 }
 
+.First-Row a {
+    text-decoration: none;
+}
+
 .Rock {
     flex: 1 1 0;
     display: flex;
@@ -215,6 +218,7 @@ img {
     border: 12px solid brown;
     font-family: monospace;
     font-size: 18px;
+    justify-content: center;
 }
 
 .About-Rock {
@@ -226,7 +230,6 @@ img {
     flex: 1 1 0;
     flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: center;
     border: 12px solid brown;
     font-family: monospace;
@@ -255,11 +258,13 @@ img {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 .ATM-Description {
     font-family: monospace;
+    font-size: 18px;
 }
 
 .Dealership {
@@ -270,7 +275,6 @@ img {
 
 .Second-Row a {
     text-decoration: none;
-    list-style: none;
 }
 
 .Rob {
