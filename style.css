@@ -28,7 +28,7 @@
 
 .top-line li {
     font-family: monospace;
-    padding: 15px;
+    padding: 12px;
     font-size: 20px;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 .Header {
     text-align: center;
     color: white;
-    font-size: 37px;
+    font-size: 44px;
     font-family: monospace;
     align-items: center;
 }
