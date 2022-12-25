@@ -1,3 +1,7 @@
+* {
+    background-color: blue;
+}
+
 .body {
     margin-top: 0;
     display: flex;
@@ -30,7 +34,7 @@
 
 .Contact {
     display: flex;
-    text-decoration: none;
+    
     list-style: none;
     gap: 14px;
     justify-content: center;
@@ -41,10 +45,6 @@
 
 a:hover {
     color: gold;
-}
-
-* {
-    background-color: grey;
 }
 
 .Header {
@@ -92,7 +92,7 @@ a:hover {
 
 .Skills li {
     display: inline;
-    color: gold;
+    color: rgb(0, 205, 0);
     margin: 10px 0;
 }
 
@@ -104,7 +104,7 @@ a:hover {
 }
 
 .Imgg {
-    border: 33px solid blue;
+    border: 33px solid green;
 }
 
 
@@ -213,10 +213,10 @@ img {
     flex-direction: column;
     align-items: center;
     border: 6px solid black;
-    padding: 10px;
     font-family: monospace;
     font-size: 18px;
     justify-content: center;
+    text-align: center;
 }
 
 .About-Rock {
@@ -232,6 +232,7 @@ img {
     border: 6px solid black;
     font-family: monospace;
     font-size: 18px;
+    text-align: center;
 }
 
 .Second-Row {
@@ -252,10 +253,10 @@ img {
     flex-direction: column;
     align-items: center;
     border: 6px solid black;
-    padding: 10px;
     font-family: monospace;
     font-size: 18px;
     justify-content: center;
+    text-align: center;
 }
 
 .ATM-Description {
@@ -273,6 +274,7 @@ img {
     font-family: monospace;
     font-size: 18px;
     justify-content: center;
+    text-align: center;
 }
 
 .Second-Row a {
