@@ -432,3 +432,31 @@ img {
     text-align: center;
     align-items: center;
 }
+
+/*
+
+.contact-form {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    border: solid red 1px;
+}
+*/
+
+.large-textarea {
+    max-width: 2200px;
+    width: 70%;
+}
+
+input {
+    max-width: 2200px;
+    width: 30%;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border: solid red 1px;
+    padding-left: 60px;
+}
