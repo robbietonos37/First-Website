@@ -1,6 +1,6 @@
 * {
     background-color: rgb(255, 179, 0);
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(67, 67, 67);
     /*border: 2px solid red;*/
 }
 
@@ -19,7 +19,6 @@ body {
     margin-top: 0;
     display: flex;
     list-style: none;
-    border: 11px solid white;
     padding: 0 15px;
 }
 
@@ -32,6 +31,7 @@ body {
 }
 
 .top-line a {
+    color: black;
     margin-top: 0;
     font-size: 20px;
     text-decoration: none;
@@ -53,9 +53,15 @@ body {
     flex-direction: row;
 }
 
-a:hover {
-    color: blue;
+a:visited {
+    color: black;
 }
+
+a:hover {
+    color: white;
+}
+
+
 
 .Header {
     text-align: center;
@@ -246,16 +252,6 @@ a:hover {
     font-size: 37px;
 }
 
-.Middle {
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
-    font-family: monospace;
-    font-size: 52px;
-    font-weight: bold;
-    padding: 25px;
-}
-
 .Pictures {
     display: flex;
     flex-direction: row;
@@ -266,47 +262,6 @@ a:hover {
 
 .Pictures img {
     height: 200px;
-}
-
-.Coldbrew {
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    align-items: center;
-    flex: 1 1 0px;
-}
-
-.ColdCaption {
-    text-align: center;
-    font-size: 24px;
-}
-
-.Cold {
-    margin-left: 10px;
-}
-
-.Gym {
-    display: flex;
-    flex-direction: column;
-    font-size: 24px;
-    align-items: center;
-    flex: 1 1 0;
-}
-
-.South {
-    justify-content: center;
-}
-
-.Food {
-    align-items: center;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 0;
-}
-
-.Taco {
-    justify-content: right;
 }
 
 img {
@@ -433,15 +388,16 @@ img {
     align-items: center;
 }
 
-/*
+
 
 .contact-form {
     padding-top: 25px;
     display: flex;
     justify-content: center;
-    border: solid red 1px;
+    /* border: solid red 1px; */
+    gap: 55px;
 }
-*/
+
 
 .large-textarea {
     max-width: 2200px;
@@ -451,6 +407,7 @@ img {
 input {
     max-width: 2200px;
     width: 30%;
+    height: 79%;
 }
 
 form {
@@ -459,4 +416,6 @@ form {
     text-align: left;
     border: solid red 1px;
     padding-left: 60px;
+    height: 100%;
+
 }
