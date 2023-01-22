@@ -1,12 +1,13 @@
 * {
     background-color: rgb(255, 179, 0);
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(69, 69, 69);
     /*border: 2px solid red;*/
 }
 
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .body {
@@ -15,7 +16,6 @@ body {
 }
 
 .top-line ul {
-    flex: auto;
     margin-top: 0;
     display: flex;
     list-style: none;
@@ -23,7 +23,6 @@ body {
 }
 
 .top-line {
-    flex: auto;
     margin-top: 0;
     height: 100%;
     width: 100%;
@@ -32,7 +31,6 @@ body {
 
 .top-line a {
     color: black;
-    margin-top: 0;
     font-size: 20px;
     text-decoration: none;
 }
@@ -46,11 +44,10 @@ body {
 .Contact {
     display: flex;
     list-style: none;
-    gap: 42px;
+    gap: 22px;
     justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
-    flex-direction: row;
 }
 
 a:visited {
@@ -61,8 +58,6 @@ a:hover {
     color: white;
 }
 
-
-
 .Header {
     text-align: center;
     color: black;
@@ -72,8 +67,6 @@ a:hover {
 }
 
 .Short-Intro {
-    display: flex;
-    justify-content: center;
     padding: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 52px;
@@ -92,8 +85,8 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    margin: 60px;
+    gap: 80px;
+    margin: 10px 30px;
 }
 
 .Skills li {
@@ -175,8 +168,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
-    margin: 80px;
+    gap: 70px;
+    margin: 60px;
     list-style: none;
 }
 
@@ -189,7 +182,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-    justify-content: center;
     align-items: center;
     font-family: monospace;
     font-size: 25px;
@@ -205,7 +197,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-    justify-content: center;
     align-items: center;
     font-family: monospace;
     font-size: 25px;
@@ -221,7 +212,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-    justify-content: center;
     align-items: center;
     font-family: monospace;
     font-size: 25px;
@@ -232,11 +222,6 @@ a:hover {
     width: 100px;
     height: 100px;
 }
-
-.Imgg {
-    border: 33px solid green;
-}
-
 
 .Refer-Below {
     flex: 1 1 0;
@@ -279,7 +264,8 @@ img {
     flex: 1 1 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 25px;
 }
 
 .First-Row a {
@@ -388,17 +374,6 @@ img {
     align-items: center;
 }
 
-
-
-.contact-form {
-    padding-top: 25px;
-    display: flex;
-    justify-content: center;
-    /* border: solid red 1px; */
-    gap: 55px;
-}
-
-
 .large-textarea {
     max-width: 2200px;
     width: 70%;
@@ -412,10 +387,14 @@ input {
 
 form {
     width: 100%;
-    margin: 0 auto;
+    margin-top: 20px;
     text-align: left;
     border: solid red 1px;
     padding-left: 60px;
     height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> About Me </title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body>
@@ -20,12 +21,7 @@
         <li><a href="#FillOut">Contact</a></li>
       </ul>
     </div>
-    <!--
-    <div class="Contact">
-      <li>Cell Number: 601-955-2504</li>
-      <li>Email: Robbietonos73@gmail.com</li>
-    </div>
-    -->
+    
     <h1 class="Header">Hello all! My name is Robert Tonos</h1>
 
     <div class="Short-Intro">Software Engineer with a passion to collaborate with others to
@@ -162,27 +158,28 @@
 
   </div>
 
+
+  <div id="FillOut" class="contact-form">
+
+    <form accept-charset="utf-8" method="POST">
+      <div class="label">
+        <label class="label1">Name</label>
+      </div>
+      <input type="text" name="person-name">
+      <div class="label">
+        <label class="label1">Email</label>
+      </div>
+      <input type="text" name="person-email">
+
+      <div class="label">
+        <label class="label1">Message</label>
+      </div>
+      <textarea class="large-textarea" name="message" rows="9" required></textarea>
+
+    </form>
+
+  </div>
+
 </body>
-
-<div id="FillOut" class="contact-form">
-
-  <form accept-charset="utf-8" method="POST">
-    <div class="label">
-      <label class="label1">Name</label>
-    </div>
-    <input type="text" name="person-name">
-    <div class="label">
-      <label class="label1">Email</label>
-    </div>
-    <input type="text" name="person-email">
-
-    <div class="label">
-      <label class="label1">Message</label>
-    </div>
-    <textarea class="large-textarea" name="message" rows="9" required></textarea>
-
-  </form>
-
-</div>
 
 </html>
