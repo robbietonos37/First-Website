@@ -396,5 +396,14 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+    margin-bottom:30px;
+    padding:15px 0;
+}
+
+button{
+    width:200px;
+    height:30px;
+    justify-content: center;
+    border-radius:5%;
 }
