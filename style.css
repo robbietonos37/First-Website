@@ -250,7 +250,7 @@ form {
     margin-bottom: 40px;
 }
 
-#label-holder{
+#label-holder {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -271,7 +271,9 @@ form {
 input {
     max-width: 700px;
     width: 70%;
+    height: 30px;
     border-radius: var(--primer-borderRadius-medium, 6px);
+    font-size: 25px;
 }
 
 textarea {
