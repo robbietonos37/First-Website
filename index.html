@@ -62,15 +62,15 @@
           <div class="ToolHeader">
             <li id="Toolstart">Tools</li>
           </div>
-          <div class="IntelliJ">
+          <div id="IntelliJ" class="Tools">
             <li>IntelliJ</li>
             <img class="Int" src="./intell.png">
           </div>
-          <div class="VS">
+          <div id="VS" class="Tools">
             <li>VSCode</li>
             <img src="./VScode.png">
           </div>
-          <div class="Github">
+          <div id="GitHub" class="Tools">
             <li>GitHub</li>
             <img src="./gitty2.png">
           </div>
@@ -94,11 +94,11 @@
 
     <div class="Project-Grid">
 
-      <div class="First-Row">
+      <div class="Rows" id="First-Row">
 
-        <div class="Rock">
+        <div id="Rock" class="First-Row">
           <p><a href="https://github.com/robbietonos37/RockPaperScissors" target="_blank" rel="noopener noreferrer">Rock
-              Paper and Scissors</a></p>
+              Paper Scissors Game</a></p>
           <img class="Paper" src="./rockpape.png">
 
 
@@ -108,7 +108,7 @@
 
         </div>
 
-        <div class="Dice">
+        <div id="Dice" class="First-Row">
           <p><a href="https://github.com/robbietonos37/DiceRollerGame" target="_blank" rel="noopener noreferrer">Dice
               Roller Game</a></p>
           <img class="DiceRoll" src="./dize.png">
@@ -119,9 +119,9 @@
 
       </div>
 
-      <div class="Second-Row">
+      <div class="Rows" id="Second-Row">
 
-        <div class="ATM">
+        <div id="ATM" class="Second-Row">
           <a href="https://github.com/robbietonos37/ATM-Machine" target="_blank" rel="noopener noreferrer">ATM Machine
             Program</a>
           <img class="ATMPic" src="./atm.jpg">
@@ -131,7 +131,7 @@
           </p>
         </div>
 
-        <div class="Dealership">
+        <div id="Dealership" class="Second-Row">
           <a href="https://github.com/robbietonos37/DealerShip" target="_blank" rel="noopener noreferrer">DealerShip
             Project</a>
           <img class="DealershipPic" src="./dealit.jpeg">
@@ -146,45 +146,41 @@
     </div>
 
 
-    <div class="Contact">
-      <li>Cell Number: 601-955-2504</li>
-      <li>Email: Robbietonos73@gmail.com</li>
-    </div>
-
-    <div class="Change">
-
-    </div>
-
-
 
   </div>
 
+  </div>
+  <h2>Contact Me</h2>
 
-  <div id="FillOut" class="contact-form">
+  <form accept-charset="utf-8" method="POST">
+    <div id="label-holder">
 
-    <form accept-charset="utf-8" method="POST">
       <div class="label">
         <label class="label1">Name</label>
+        <input type="text" name="person-name">
       </div>
-      <input type="text" name="person-name">
+
       <div class="label">
         <label class="label1">Email</label>
+        <input type="text" name="person-email">
       </div>
-      <input type="text" name="person-email">
+
+      <div class="label">
+        <label class="label1">Subject</label>
+        <input type="text" name="person-email">
+      </div>
 
       <div class="label">
         <label class="label1">Message</label>
+        <textarea class="large-textarea" name="message" rows="9" required></textarea>
       </div>
-      <textarea class="large-textarea" name="message" rows="9" required></textarea>
+    </div>
+
+    <button type="submit">Send your message</button>
+
+  </form>
 
 
-      <button type="submit">Send your message</button>
-
-
-
-    </form>
-
-  </div>
 
 </body>
 
