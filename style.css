@@ -1,6 +1,7 @@
 * {
     background-color: rgb(69, 69, 69);
     /*border: 1px solid red;*/
+    color: black;
 }
 
 a {
@@ -273,17 +274,9 @@ input {
     width: 70%;
     height: 30px;
     border-radius: var(--primer-borderRadius-medium, 6px);
-    font-size: 25px;
+    font-size: 25pxs;
 }
 
 textarea {
     border-radius: var(--primer-borderRadius-medium, 6px);
-}
-
-button {
-    margin-top: 20px;
-    width: 200px;
-    height: 30px;
-    justify-content: center;
-    border-radius: 5%;
 }
